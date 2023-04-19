@@ -4,7 +4,7 @@ public class TilaustenKäsittely {
 
     private IHinnoittelija hinnoittelija;
 
-    public TilaustenKäsittely(IHinnoittelija hinnoittelijaMock) {
+    public TilaustenKäsittely() {
     }
 
     public void setHinnoittelija(IHinnoittelija hinnoittelija) {

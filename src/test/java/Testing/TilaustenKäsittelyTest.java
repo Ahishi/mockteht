@@ -30,7 +30,7 @@ public class TilaustenKäsittelyTest {
     @Before
     public void setUp() {
         hinnoittelijaMock = mock(IHinnoittelija.class);
-        käsittelijä = new TilaustenKäsittely(hinnoittelijaMock);
+        käsittelijä = new TilaustenKäsittely();
     }
 
     @Parameterized.Parameters
